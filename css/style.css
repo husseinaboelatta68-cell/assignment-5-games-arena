@@ -1,0 +1,193 @@
+
+.my-nav{
+    background-color: #0B0E13;
+    border-bottom: solid 2px rgb(18, 18, 46);   
+}
+.container .brand{
+    color: #CBFE1C;
+}
+.nav-links:hover{
+     color: #CBFE1C;
+}
+i{
+    color:white;
+    margin-right: 10px;
+}
+i:hover{
+    color: #CBFE1C;
+}
+ .hero-section{
+    width: 100%;
+    background-image:   linear-gradient(rgba(0,0,0,0.8)) , url("../images/hero-bg.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    background-attachment: fixed;
+}
+.hero-section .hero-image img{
+    width: 100%;
+    height: 80%;
+    border: solid #B6F93A 6px;
+    border-radius: 20px;
+}
+.hero-section .hero-content h1{
+    font-size: 90px;
+    color: white;
+    font-weight: 600;   
+}
+.hero-content h1 span{
+    color: #CBFE1C;
+    font-weight: 700;
+}
+.hero-section .hero-content p{
+    font-size: 20px;
+    color: #BABDC3;
+}
+.start{
+    color: #222A14;
+    background-color: #CBFE1C;
+    font-weight: bold;
+}
+.watch{
+    color: #CBFE1C;
+    border: solid #CBFE1C 1px;
+    font-weight: bold;  
+}
+.hero-content .buttons .watch:hover{
+    background-color: #CBFE1C;
+}
+.hero-content .buttons .start:hover{
+   background-color: #CBFE1C;
+}
+.hero-image .active-players i{
+    font-size: 20px;
+    justify-content: center;
+    color: #CBFE1C;
+}
+.hero-image .active-players{
+    padding: 10px;
+    align-items: center;
+    background-color: #0B0E13;
+    border: solid #BABDC3 1px ;
+    border-radius: 6px;
+    line-height: 10px;
+    position: absolute;
+    top: 460px;
+    right: 500px;
+}
+.hero-image .active-players .champion p{
+   color: #BABDC3;
+}
+.hero-image .active-players .champion span{
+    font-weight: bold;
+    color: white;
+}
+.latest-games{
+  background-color: #0B0E13;
+}
+.latest-games .latest-games-contents .header-latest-games{
+    text-align: center;
+}
+.latest-games .latest-games-contents .header-latest-games p{
+    color: #CBFE1C;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.latest-games .latest-games-contents .header-latest-games h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.latest-games .latest-games-contents .main-sliders .sliders .slider img{
+    width: 25%;
+    border-radius: 30px;
+}
+.carousel-indicators{
+    bottom: -40px;
+}
+.what-we-do{
+    background-color: #0B0E13;
+}
+.what-we-do .header-what-we-do{
+    text-align: center;
+}
+.what-we-do .header-what-we-do #what-we-do{
+    color: #CBFE1C;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.what-we-do .header-what-we-do h2{
+    color: white;
+    font-size: 50px;;
+    font-weight: bold;
+    line-height: 40px;
+}
+.what-we-do .header-what-we-do #we-build span{
+    color: #CBFE1C;
+}
+.what-we-do .header-what-we-do #we-build {
+    color: white;
+    font-size: 50px;;
+    font-weight: bold;
+}
+.what-we-do .cards{
+    margin: auto;
+}
+.what-we-do .cards  img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+.what-we-do .cards .my-card{
+    border: solid #1E2939 1px;
+    border-radius: 10px;
+    margin: 30px;
+}
+.what-we-do .cards .my-card:hover{
+    border: #CBFE1C solid 1px;
+    transition: 0.2s;
+}
+.my-card h3{
+    color: white;
+    font-weight: 800;
+}
+.my-card i{
+    color: #CBFE1C;
+    font-size: 30px;
+    width: 30%;
+    padding: 20px;
+    background-color: #1E2939;
+    border-radius: 10px;
+    text-align: center;
+}
+.my-card i:hover{
+    background-color: #CBFE1C;
+    color: #1E2939;
+}
+.our-team{
+    background-color: #0B0E13;
+}
+.our-team .header-our-team{
+    text-align: center;
+}
+ .header-our-team h2{
+    color: white;
+    font-size: 50px;;
+    font-weight: bold;
+    line-height: 40px;
+ }
+ .header-our-team #our-team{
+    color: #CBFE1C;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 700;
+ }
+.header-our-team #success{
+    color: #8F97A4;
+}
+.our-team .card-team .card{
+    margin: auto;
+}
